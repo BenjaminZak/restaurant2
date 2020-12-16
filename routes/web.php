@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Gloudemans\Shoppingcart\Facades\Cart;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,20 +15,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Products routes
+/* Product Routes */
 Route::get('/boutique', 'App\\Http\\Controllers\\ProductController@index')->name('products.index');
 Route::get('/boutique/{slug}', 'App\\Http\\Controllers\\ProductController@show')->name('products.show');
 
-// Cart Routes
+/* Cart Routes */
 Route::get('/panier', 'App\\Http\\Controllers\\CartController@index')->name('cart.index');
 Route::post('/panier/ajouter', 'App\\Http\\Controllers\\CartController@store')->name('cart.store');
+Route::patch('/panier/{rowId}', 'App\\Http\\Controllers\\CartController@update')->name('cart.update');
 Route::delete('/panier/{rowId}', 'App\\Http\\Controllers\\CartController@destroy')->name('cart.destroy');
 
-Route::get('/videpanier', function() {
-	Cart::destroy();
-});
-
-// Checkout routes
+/* Checkout Routes */
 Route::get('/paiement', 'App\\Http\\Controllers\\CheckoutController@index')->name('checkout.index');
 Route::post('/paiement', 'App\\Http\\Controllers\\CheckoutController@store')->name('checkout.store');
-Route::get('/merci', 'App\\Http\\Controllers\\CheckoutController@thankyou')->name('checkout.thankyou');
+Route::get('/merci', 'App\\Http\\Controllers\\CheckoutController@thankYou')->name('checkout.thankyou');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

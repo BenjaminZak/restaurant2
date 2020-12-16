@@ -20,7 +20,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug1";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 65;
+        $product->price = 6500;
         $product->image = "jarret-veau.jpg";
         $product->save();
 
@@ -29,7 +29,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug2";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 140;
+        $product->price = 14000;
         $product->image = "aiguillettes.jpg";
         $product->save();
 
@@ -38,7 +38,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug3";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 125;
+        $product->price = 12500;
         $product->image = "saint-jacques.jpg";
         $product->save();
 
@@ -47,7 +47,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug4";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 85;
+        $product->price = 8500;
         $product->image = "risotto.jpg";
         $product->save();
 
@@ -56,7 +56,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug5";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 60;
+        $product->price = 6000;
         $product->image = "langoustines.jpg";
         $product->save();
 
@@ -65,7 +65,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug6";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 120;
+        $product->price = 12000;
         $product->image = "poulet-bresse.jpg";
         $product->save();
 
@@ -74,7 +74,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug7";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 89;
+        $product->price = 8900;
         $product->image = "jambon-blanc.jpg";
         $product->save();
 
@@ -83,7 +83,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug8";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 45;
+        $product->price = 4500;
         $product->image = "steak-tartare.jpg";
         $product->save();
 
@@ -92,7 +92,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug9";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 35;
+        $product->price = 3500;
         $product->image = "salade-cesar.jpg";
         $product->save();
 
@@ -101,7 +101,7 @@ class ProductsTableSeeder extends Seeder
         $product->slug = "Slug10";
         $product->subtitle = "Exitium quandoque generalibus urbem ex";
         $product->description = "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?";
-        $product->price = 23;
+        $product->price = 2300;
         $product->image = "hamburger-maison.jpg";
         $product->save();
 
